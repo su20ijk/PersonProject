@@ -6,7 +6,7 @@ public class Main {
 		Schedule k = new Schedule();
 		String[] kk = { "b1", "b2", "b3", "b4", "b5" };
 		k.setSchduledMeetings(kk);
-		System.out.println(k.getSchduledMeetings());
+		System.out.println(k.mySchedule());
 	}
 
 }

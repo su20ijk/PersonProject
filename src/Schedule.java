@@ -18,7 +18,7 @@ public class Schedule {
 		String schedule="";
 		for(int i=0; i<5; i++) {
 			if(schduledMeetings[i]!=null) {
-				schedule=schedule+schduledMeetings[i]+"/n";
+				schedule=schedule+schduledMeetings[i]+"\n";
 			}
 		}
 		return schedule;

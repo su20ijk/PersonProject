@@ -13,4 +13,5 @@ public class Person {
 	public void moreMoney() {
 		salary += 1000;
 	}
+
 }

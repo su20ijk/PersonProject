@@ -7,6 +7,6 @@ public Person() {
 	salary=0;
 }
 public void moreMoney() {
-	salary+=100;
+	salary+=1000;
 }
 }

@@ -1,14 +1,17 @@
 
 public class Person {
-private String name;
-private double salary;
-private Occupation job;
-public Person() {
-	name="bob";
-	salary=0;
-	job = new Occupation();
-}
-public void moreMoney() {
-salary+=1000;
-}
+	private String name;
+	private double salary;
+	private Adress adress;
+
+	public Person() {
+		adress = new Adress();
+		name = "bob";
+		salary = 0;
+	}
+
+	public void moreMoney() {
+		salary += 1000;
+	}
+
 }
